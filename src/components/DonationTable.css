@@ -1,0 +1,110 @@
+/* DonationTable.css - Premium Minimalist */
+.ff-table-container {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01), 0 4px 12px rgba(0, 0, 0, 0.03);
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+
+.ff-table-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #ffffff;
+}
+
+.ff-table-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #111827;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+/* Clean Input Wrapper */
+.ff-search-wrapper .form-control {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.ff-search-wrapper .form-control:focus {
+  border-color: #111827;
+  box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.05);
+}
+
+/* Minimalist Table Elements */
+.ff-table-container table {
+  margin-bottom: 0;
+}
+
+.ff-table-container thead th {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #4b5563;
+  background-color: #f9fafb;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ff-table-container tbody td {
+  padding: 1.25rem 2rem;
+  font-size: 0.92rem;
+  color: #374151;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.ff-donor-name {
+  font-weight: 500;
+  color: #111827;
+}
+
+.ff-amount-cell {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* De-saturated Minimalist Badges */
+.ff-table-container .badge {
+  font-weight: 500;
+  font-size: 0.78rem;
+  padding: 0.35em 0.65em;
+  border-radius: 4px;
+}
+
+.ff-table-container .bg-primary { background-color: #eff6ff !important; color: #1e40af !important; }
+.ff-table-container .bg-success { background-color: #ecfdf5 !important; color: #065f46 !important; }
+.ff-table-container .bg-warning { background-color: #fffbef !important; color: #92400e !important; }
+.ff-table-container .bg-info { background-color: #f0fdfa !important; color: #115e59 !important; }
+.ff-table-container .bg-secondary { background-color: #f3f4f6 !important; color: #374151 !important; }
+
+/* Clean Minimal Actions */
+.ff-table-container .btn-outline-danger {
+  border: 1px solid #e5e7eb;
+  color: #9ca3af;
+  background-color: transparent;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  transition: all 0.15s ease;
+}
+
+.ff-table-container .btn-outline-danger:hover {
+  background-color: #fef2f2;
+  border-color: #fee2e2;
+  color: #dc2626;
+}
+
+.ff-empty-state {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.95rem;
+}

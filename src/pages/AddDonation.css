@@ -1,0 +1,87 @@
+/* AddDonation.css - Premium Minimalist */
+.ff-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1.5rem;
+  background-color: #fafafa;
+  min-height: calc(100vh - 70px);
+}
+
+.ff-form-card {
+  width: 100%;
+  max-width: 540px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 12px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02), 0 8px 24px rgba(0, 0, 0, 0.04) !important;
+  padding: 2.5rem;
+}
+
+.ff-form-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #111827;
+  letter-spacing: -0.025em;
+  margin-bottom: 0.5rem;
+}
+
+.ff-form-subtitle {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
+}
+
+.ff-form-label {
+  font-weight: 500;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+/* Crisp form inputs with elegant transitions */
+.ff-form-card .form-control,
+.ff-form-card .form-select {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  color: #111827;
+  background-color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.ff-form-card .form-control:focus,
+.ff-form-card .form-select:focus {
+  border-color: #111827;
+  box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.05);
+  outline: none;
+}
+
+/* Premium State Action Buttons */
+.ff-form-card .btn-success {
+  background-color: #198754;
+  border-color: #111827 !important;
+  border-radius: 8px !important;
+  padding: 0.85rem !important;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: opacity 0.2s ease;
+}
+
+.ff-form-card .btn-success:hover {
+  opacity: 0.9;
+}
+
+.ff-form-card .btn-secondary:disabled {
+  background-color: #f3f4f6 !important;
+  border-color: #e5e7eb !important;
+  color: #9ca3af !important;
+  border-radius: 8px !important;
+  padding: 0.85rem !important;
+  font-size: 0.9rem;
+}

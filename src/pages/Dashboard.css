@@ -1,0 +1,27 @@
+/* Dashboard.css */
+.ff-dashboard-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.ff-dashboard-header {
+  margin-bottom: 24px;
+}
+
+.ff-main-heading {
+  font-weight: 800;
+  color: #212529;
+  margin-bottom: 4px;
+}
+
+.ff-sub-heading {
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+.ff-cards-row {
+  margin-bottom: 24px;
+}

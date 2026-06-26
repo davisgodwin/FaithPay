@@ -1,0 +1,29 @@
+/* NavigationBar.css */
+.ff-navbar {
+  background-color: #198754; /* Beautiful church green */
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.ff-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.ff-nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 500;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+}
+
+.ff-nav-link:hover,
+.ff-nav-link.active {
+  color: #ffffff !important;
+  font-weight: 700;
+}

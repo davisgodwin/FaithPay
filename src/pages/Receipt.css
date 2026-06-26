@@ -1,0 +1,55 @@
+/* Receipt.css */
+.ff-receipt-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+.ff-receipt-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.ff-receipt-success-banner {
+  background-color: #198754;
+  color: #ffffff;
+  padding: 32px 16px;
+  text-align: center;
+}
+.ff-receipt-icon-circle {
+  width: 64px;
+  height: 64px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.ff-receipt-body {
+  padding: 24px;
+}
+.ff-receipt-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f3f5;
+  font-size: 0.95rem;
+}
+.ff-receipt-row:last-child {
+  border-bottom: none;
+}
+.ff-receipt-label {
+  color: #6c757d;
+}
+.ff-receipt-value {
+  font-weight: 600;
+  color: #212529;
+}
+.ff-receipt-value.amount {
+  color: #198754;
+  font-weight: 700;
+}

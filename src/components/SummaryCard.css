@@ -1,0 +1,34 @@
+.ff-card-wrapper {
+  margin-bottom: 16px;
+}
+
+.ff-summary-card {
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.ff-card-title {
+  color: #6c757d;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.ff-card-value {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.ff-card-value-primary {
+  color: #0d6efd;
+}
+
+.ff-card-value-success {
+  color: #198754;
+}
