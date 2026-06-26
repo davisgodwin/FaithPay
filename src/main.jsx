@@ -10,3 +10,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+
+// Add this to the bottom of src/main.jsx
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('Service Worker registered safely.'))
+      .catch(err => console.log('Service worker registration failed: ', err));
+  });
+}
